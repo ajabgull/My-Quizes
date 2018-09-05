@@ -1,0 +1,36 @@
+Q No1: How to launch SWI Prolog on command line?
+Ans: First we load the directory, the folder where the prolog file is stored, by writing “cd Documents/ cd Desktop etc.” if it returns true then the SWI Prolog is launched. 
+
+Q No2: What is the extension of Prolog knowledge base?
+Ans: The extension of Prolog is ‘.pl’
+
+Q No3: How to load a knowledge base in prolog?
+Ans: To load the prolog knowledge base we write consult (‘first.pl’).
+
+Q No4: How to exit a prolog session?
+Ans: we write the command halt.
+
+Q No5: How to get help on a topic from within a prolog?
+Ans: To get help on a topic within prolog we write the command ‘help’. 
+
+Q No6: What is a term?
+Ans: A term is a logical expression that refers to an object. Constant symbols are therefore terms, but it is not always convenient to have a distinct symbol to name every object.  (Artificial Intelligence _ a Modern Approach)
+
+Q No7: What is an atom?
+Ans: An atom is a general purpose name with no inherent meaning. It is composed of a sequence of characters that is parsed by the prolog reader as a single unit. Atoms are usually bare words in prolog code, written with no special syntax. (Prolog syntax and semantics, Wikipedia)
+
+Q NO8: What is a functor?
+Ans: Functors are syntactic units that have a finite number of arguments “arity”, and if a functor is supplied with some terms that becomes a compound term. (Prolog syntax and semantics, Wikipedia)
+
+Q No9: What are complex terms?
+Ans: Complex terms are terms where one atom (functor) is followed by a sequence of terms.
+
+Q No10: Define Predicate in prolog?
+Ans: Each predicate has a name, and zero or more arguments. The predicate name is a prolog atom. Each argument is an arbitrary prolog term. 
+A predicate with name pred and N be the argument so it will be denoted by Pred/N.
+
+Q No11: What is arity of Predicate?
+Ans: The arity is the argument of any predicate or atom.
+
+Q No12: What is Unification?
+Ans: The true relation of the terms of any atom’s Functors is known as unification.  
